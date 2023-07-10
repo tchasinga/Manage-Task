@@ -9,6 +9,7 @@ class Counting extends Component {
   }
 
   increment = () => {
+    console.log(this)
     this.setState({
       numbering: this.state.numbering + 1,
     });

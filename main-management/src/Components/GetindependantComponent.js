@@ -1,3 +1,4 @@
+import FunctionCounterComponent from "./FunctionCounter.js";
 import Counting from "./Numberget.js";
 import FunctionEvent from "./FunctionEvent.js";
 const MoreInformation = () => {
@@ -11,6 +12,7 @@ const MoreInformation = () => {
       </p>
       <Counting/>
       <FunctionEvent/>
+      <FunctionCounterComponent/>
     </div>
 
   );

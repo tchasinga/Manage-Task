@@ -11,7 +11,7 @@ function FunctionEvent() {
 const myColor = document.querySelector('.getColoring')
 function makeAction() {
     alert("Hello");
-    myColor.style.color = "blue";
+ myColor.style.color = "red";
 }
 
-export default FunctionEvent;
+export default FunctionEvent; 
